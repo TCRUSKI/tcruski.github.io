@@ -1,55 +1,137 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
-
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="icon" href="/images/alexidakibacktopnobackgroundsfw.png">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta content="Alexi's Silly Website" property="og:title"/>
-<meta content="/images/alexidakibacktopnobackgroundsfw.png" property="og:image"/>
-<title>Alexi's Website</title>
-<link rel="icon" href="/favicon.ico">
-<style>
-		@font-face { font-family: SpongeBoy; src: url('/css/fonts/spongeboy/SpongeboyRegular-gx2n6.otf'); } 
-		@font-face { font-family: Runescape; src: url('/css/fonts/runescape_fonts/otf/RuneScape-Bold-12.otf'); } 
-		body {
-			font-size: 40px;
-			font-family: Runescape
-		}
-		h3 {
-			font-family: SpongeBoy
-		}
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
-</style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/images/alexidakibacktopnobackgroundsfw.png">
+	<link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/theme/">
+
+	<title>Theme Template for Bootstrap</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="/css/theme.css" rel="stylesheet">
+
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+	<![endif]-->
 </head>
-<body bgcolor="#FFFFFF" text="#000000" link="#0000FF"
-vlink="#000080" alink="#FF0000">
-<div align="center" style="background-color:#284F95;color:#FFF;font-size:30px;font-style:oblique;font-variant:small-caps;height:50px;padding-top:15px;">
-<h3>Alexi's Website</h3>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Alexi's Website</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="https://twitter.com/AlexiFur">Twitter</a></li>
+				<li><a href="https://bsky.app/profile/alexiyeen.bsky.social">Bluesky</a></li>
+				<li><a href="https://t.me/AlexiYeen">Telegram</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container theme-showcase" role="main">
+
+
+
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="7"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="8"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="9"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="10"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="11"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="12"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="13"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/carousel/alexi-french.jpg" alt="Alexi French">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-bonanza.jpg" alt="Alexi Bonanza">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-burton.jpg" alt="Alexi Burton">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-jojo.jpg" alt="Alexi Jojo">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-lift.jpg" alt="Alexi Lift">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-lift-2.jpg" alt="Alexi Lift 2">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-lift-gate.jpg" alt="Alexi Lift Gate">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-look.jpg" alt="Alexi Look">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-sitting.jpg" alt="Alexi Sitting">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexibedshot.png" alt="Alexi Bed Shot">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-harness-hot.png" alt="Alexi Harness Hot">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi-knot.PNG" alt="Alexi knot">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi%20daki%20front%20no%20background%20nsfw.png" alt="Alexi Daki Front">
+			</div>
+			<div class="item">
+				<img src="images/carousel/alexi%20daki%20back%20no%20background%20nsfw.png" alt="Alexi Daki Back">
+			</div>
+		</div>
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="sr-only">Next</span>
+		</a>
 </div>
-<center>
-The funny Hyena<br>
-<a href="https://twitter.com/AlexiFur" style="text-decoration: none; color: inherit" target="_blank"><img src = 'images/twittericon.png' style='vertical-align: middle;width:40px;height:40px;'/>Twitter</a><br>
-<a href="https://bsky.app/profile/alexiyeen.bsky.social" style="text-decoration: none; color: inherit;" target="_blank"><img src = 'images/blueskyicon.png' style='vertical-align: middle;width:40px;height:40px;'/>Bluesky</a><br>
-<a href="https://t.me/AlexiYeen" style="text-decoration: none; color: inherit;" target="_blank"><img src = 'images/telegramicon.png' style='vertical-align: middle;width:40px;height:40px;'/>Telegram</a><br>
-<a href="https://t.me/+WVOle9D0_LllYmIx" style="text-decoration: none; color: inherit;" target="_blank"><img src = 'images/telegramicon.png' style='vertical-align: middle;width:40px;height:40px;'/>Telegram Group Chat</a><br>
-<a href="https://discordapp.com/users/272135601254301696" title="Link doesn't work on browser well, open on mobile" style="text-decoration: none; color: inherit;" target="_blank"><img src = 'images/discord-icon-2048x2048-nnt62s2u.png' style='vertical-align: middle;width:40px;height:40px;'/>alexiyeen</a></abbr><br>
-</center>
-<div align="center">
-	<img src="images/alexidakibacktopnobackgroundsfw.png" style="width:500px;height:600px;">
-</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery-3.7.1.min.js"><\/script>')</script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
-</html
+</html>
