@@ -21,6 +21,11 @@
 	<!-- Custom styles for this template -->
 	<link href="/css/theme.css" rel="stylesheet">
 
+	<script type="text/javascript">
+		$(window).on('ready', function() {
+			$('#myModal').modal('show');
+		});
+	</script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -57,7 +62,7 @@
 
 
 
-	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide" >
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
@@ -124,7 +129,30 @@
 		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 			<span class="sr-only">Next</span>
 		</a>
+	</div>
 </div>
+
+
+<div class="modal show" id="myModal" role="dialog">
+	<div class="modal-dialog">
+
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Content Warning!</h4>
+			</div>
+			<div class="modal-body">
+				<p>Are you 18 or older?</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal" onclick = "$('.modal').removeClass('show').addClass('fade');">Yes</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal" onclick="window.open('', '_self', ''); window.close();">No</button>
+			</div>
+		</div>
+
+	</div>
+</div>
+
 
 
 <!-- Bootstrap core JavaScript
